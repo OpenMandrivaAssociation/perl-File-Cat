@@ -44,3 +44,27 @@ rm -rf %{buildroot}
 %{_mandir}/*/*
 
 
+
+
+%changelog
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 1.2-4mdv2010.0
++ Revision: 430443
+- rebuild
+
+* Thu Jul 31 2008 Thierry Vignaud <tv@mandriva.org> 1.2-3mdv2009.0
++ Revision: 256871
+- rebuild
+
+* Thu Dec 20 2007 Olivier Blin <oblin@mandriva.com> 1.2-1mdv2008.1
++ Revision: 135841
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Sun Mar 04 2007 Olivier Blin <oblin@mandriva.com> 1.2-1mdv2007.0
++ Revision: 132670
+- initial Mandriva release
+- Create perl-File-Cat
+
