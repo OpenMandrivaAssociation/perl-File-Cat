@@ -4,12 +4,12 @@
 %define	release	%mkrel 4
 
 Name:		%{name}
-Version:	%{version}
-Release:	%{release}
+Version:	%perl_convert_version 1.2
+Release:	1
 Summary:	Perl implementation of cat(1)
 License:	GPL or Artistic
 Group:		Development/Perl
-Source:		http://search.cpan.org/CPAN/authors/id/F/FI/FIMM/%{module}-%{version}.tar.bz2
+Source:		http://search.cpan.org/CPAN/authors/id/F/FI/FIMM/File-Cat-1.2.tar.gz
 Url:		http://search.cpan.org/dist/%{module}
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 Buildrequires:	perl-devel
@@ -67,4 +67,5 @@ rm -rf %{buildroot}
 + Revision: 132670
 - initial Mandriva release
 - Create perl-File-Cat
+
 
