@@ -8,7 +8,7 @@ Summary:	Perl implementation of cat(1)
 License:	GPL or Artistic
 Group:		Development/Perl
 Source:		http://search.cpan.org/CPAN/authors/id/F/FI/FIMM/File-Cat-%{upstream_version}.tar.gz
-Url:		http://search.cpan.org/dist/%{module}
+Url:		https://search.cpan.org/dist/%{module}
 BuildRequires:	perl-devel
 Requires:	perl 
 BuildArch:	noarch
