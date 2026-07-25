@@ -2,13 +2,13 @@
 %define	upstream_version	1.2
 
 Name:		perl-%{module}
-Version:	%perl_convert_version %{upstream_version}
-Release:	7
+Version:	%{upstream_version}
+Release:	8
 Summary:	Perl implementation of cat(1)
 License:	GPL or Artistic
 Group:		Development/Perl
-Source:		http://search.cpan.org/CPAN/authors/id/F/FI/FIMM/File-Cat-%{upstream_version}.tar.gz
-Url:		https://search.cpan.org/dist/%{module}
+Source:		https://cpan.metacpan.org/authors/id/F/FI/FIMM/File-Cat-%{upstream_version}.tar.gz
+Url:		https://metacpan.org/dist/File-Cat
 BuildRequires:	make
 BuildRequires:	perl-devel
 Requires:	perl 
