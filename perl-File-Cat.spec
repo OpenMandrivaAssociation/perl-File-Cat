@@ -1,13 +1,11 @@
 %define	module	File-Cat
-%define	upstream_version	1.2
-
 Name:		perl-%{module}
-Version:	%{upstream_version}
-Release:	8
+Version:	1.2
+Release:	9
 Summary:	Perl implementation of cat(1)
 License:	GPL or Artistic
 Group:		Development/Perl
-Source:		https://cpan.metacpan.org/authors/id/F/FI/FIMM/File-Cat-%{upstream_version}.tar.gz
+Source:		https://cpan.metacpan.org/authors/id/F/FI/FIMM/File-Cat-%{version}.tar.gz
 Url:		https://metacpan.org/dist/File-Cat
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -20,7 +18,7 @@ you will explore some of the most inane programs ever seen by
 mortals. No computer should be without one!
 
 %prep
-%setup -q -n %{module}-%{upstream_version}
+%setup -q -n %{module}-%{version}
 
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
